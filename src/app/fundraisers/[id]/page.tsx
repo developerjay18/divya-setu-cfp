@@ -54,7 +54,7 @@ export default async function FundraiserDetailPage({ params }: FundraiserDetailP
           <div className="lg:col-span-2">
             {/* Fundraiser header */}
             <div className="mb-8">
-              <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+              <h1 className="text-3xl font-bold tracking-tight text-gray-100 sm:text-4xl">
                 {fundraiser.title}
               </h1>
               <div className="mt-2 flex items-center">
@@ -63,7 +63,7 @@ export default async function FundraiserDetailPage({ params }: FundraiserDetailP
                 </span>
                 <span className="ml-4 text-sm text-gray-500">
                   Created by{' '}
-                  <span className="font-medium text-gray-900">
+                  <span className="font-medium text-gray-200">
                     {(fundraiser.createdBy as any)?.name || 'Anonymous'}
                   </span>
                 </span>
@@ -94,7 +94,7 @@ export default async function FundraiserDetailPage({ params }: FundraiserDetailP
             {/* Fundraiser description */}
             <div className="prose prose-indigo mb-8 max-w-none">
               <h2 className="text-2xl font-bold">About this fundraiser</h2>
-              <div className="mt-4 whitespace-pre-line text-gray-700">
+              <div className="mt-4 whitespace-pre-line text-gray-200">
                 {fundraiser.description}
               </div>
             </div>

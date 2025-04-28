@@ -87,7 +87,7 @@ export default function ProfileForm({ initialData }: ProfileFormProps) {
           <input
             id="name"
             type="text"
-            className="block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+            className="block w-full rounded-md text-black p-2 border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
             {...register('name')}
           />
           {errors.name && (
@@ -106,7 +106,7 @@ export default function ProfileForm({ initialData }: ProfileFormProps) {
             type="email"
             disabled
             value={initialData.email}
-            className="block w-full rounded-md border-gray-300 bg-gray-100 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+            className="block w-full rounded-md text-black p-2 border-gray-300 bg-gray-100 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
           />
           <p className="mt-1 text-sm text-gray-500">
             Email cannot be changed
@@ -122,7 +122,7 @@ export default function ProfileForm({ initialData }: ProfileFormProps) {
           <input
             id="image"
             type="text"
-            className="block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+            className="block w-full rounded-md border-gray-300 text-black p-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
             placeholder="https://example.com/your-profile-image.jpg"
             {...register('image')}
           />
@@ -155,7 +155,7 @@ export default function ProfileForm({ initialData }: ProfileFormProps) {
             type="text"
             disabled
             value={initialData.accountType.charAt(0).toUpperCase() + initialData.accountType.slice(1)}
-            className="block w-full rounded-md border-gray-300 bg-gray-100 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+            className="block w-full rounded-md text-black p-2 border-gray-300 bg-gray-100 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
           />
           <p className="mt-1 text-sm text-gray-500">
             Account type cannot be changed

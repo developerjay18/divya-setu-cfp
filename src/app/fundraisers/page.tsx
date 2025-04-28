@@ -43,10 +43,10 @@ export default async function FundraisersPage({ searchParams }: FundraisersPageP
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
           <div>
-            <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+            <h1 className="text-3xl font-bold tracking-tight text-gray-100 sm:text-4xl">
               Fundraisers
             </h1>
-            <p className="mt-2 text-lg text-gray-600">
+            <p className="mt-2 text-lg text-gray-200">
               Browse fundraisers and donate to causes you care about.
             </p>
           </div>
@@ -62,7 +62,7 @@ export default async function FundraisersPage({ searchParams }: FundraisersPageP
         
         <div className="mt-8 border-b border-gray-200 pb-5">
           <div className="sm:flex sm:items-center sm:justify-between">
-            <h3 className="text-base font-semibold text-gray-900">
+            <h3 className="text-base font-semibold text-gray-100">
               {category ? `${category} Fundraisers` : 'All Fundraisers'}
             </h3>
             <div className="mt-3 sm:mt-0">

@@ -113,10 +113,10 @@ export default async function Home() {
       <section className="py-12 sm:py-16 lg:py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900">
+            <h2 className="text-3xl font-bold tracking-tight text-white">
               How It Works
             </h2>
-            <p className="mt-4 text-lg text-gray-600">
+            <p className="mt-4 text-lg text-gray-100">
               Simple steps to make a difference through Divya Setu.
             </p>
           </div>
@@ -127,7 +127,7 @@ export default async function Home() {
               <div className="flex h-12 w-12 items-center justify-center rounded-full bg-indigo-100 text-indigo-600">
                 <span className="text-xl font-bold">1</span>
               </div>
-              <h3 className="mt-4 text-xl font-bold text-gray-900">
+              <h3 className="mt-4 text-xl font-bold text-white">
                 Create an Account
               </h3>
               <p className="mt-2 text-gray-600">

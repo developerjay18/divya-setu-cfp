@@ -105,10 +105,10 @@ export default function RegisterPage() {
     <MainLayout>
       <div className="flex min-h-full flex-col justify-center py-12 sm:px-6 lg:px-8">
         <div className="sm:mx-auto sm:w-full sm:max-w-md">
-          <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900">
+          <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-gray-100">
             Create a new account
           </h2>
-          <p className="mt-2 text-center text-sm text-gray-700">
+          <p className="mt-2 text-center text-sm text-gray-100">
             Already have an account?{' '}
             <Link
               href="/auth/login"
@@ -134,7 +134,7 @@ export default function RegisterPage() {
                     id="name"
                     type="text"
                     autoComplete="name"
-                    className="block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 placeholder-gray-400 shadow-sm focus:border-indigo-500 focus:outline-none sm:text-sm"
+                    className="block w-full appearance-none rounded-md border text-black border-gray-300 px-3 py-2 placeholder-gray-400 shadow-sm focus:border-indigo-500 focus:outline-none sm:text-sm"
                     {...register('name')}
                   />
                   {errors.name && (
@@ -157,7 +157,7 @@ export default function RegisterPage() {
                     id="email"
                     type="email"
                     autoComplete="email"
-                    className="block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 placeholder-gray-400 shadow-sm focus:border-indigo-500 focus:outline-none sm:text-sm"
+                    className="block w-full appearance-none rounded-md border  text-black border-gray-300 px-3 py-2 placeholder-gray-400 shadow-sm focus:border-indigo-500 focus:outline-none sm:text-sm"
                     {...register('email')}
                   />
                   {errors.email && (
@@ -180,7 +180,7 @@ export default function RegisterPage() {
                     id="password"
                     type="password"
                     autoComplete="new-password"
-                    className="block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 placeholder-gray-400 shadow-sm focus:border-indigo-500 focus:outline-none sm:text-sm"
+                    className="block w-full appearance-none rounded-md border  text-black border-gray-300 px-3 py-2 placeholder-gray-400 shadow-sm focus:border-indigo-500 focus:outline-none sm:text-sm"
                     {...register('password')}
                   />
                   {errors.password && (
@@ -203,7 +203,7 @@ export default function RegisterPage() {
                     id="confirmPassword"
                     type="password"
                     autoComplete="new-password"
-                    className="block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 placeholder-gray-400 shadow-sm focus:border-indigo-500 focus:outline-none sm:text-sm"
+                    className="block w-full appearance-none rounded-md border  text-black border-gray-300 px-3 py-2 placeholder-gray-400 shadow-sm focus:border-indigo-500 focus:outline-none sm:text-sm"
                     {...register('confirmPassword')}
                   />
                   {errors.confirmPassword && (
@@ -224,7 +224,7 @@ export default function RegisterPage() {
                       id="donor"
                       type="radio"
                       value="donor"
-                      className="h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300"
+                      className="h-4 w-4 text-indigo-600 focus:ring-indigo-500  text-black border-gray-300"
                       {...register('accountType')}
                     />
                     <label

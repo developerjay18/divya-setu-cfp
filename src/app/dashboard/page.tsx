@@ -28,10 +28,10 @@ export default async function Dashboard() {
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="mb-8 md:flex md:items-center md:justify-between">
           <div className="flex-1 min-w-0">
-            <h1 className="text-3xl font-bold leading-tight text-gray-900 sm:text-4xl">
+            <h1 className="text-3xl font-bold leading-tight text-gray-100 sm:text-4xl">
               Dashboard
             </h1>
-            <p className="mt-1 text-lg text-gray-500">
+            <p className="mt-1 text-lg text-gray-100">
               {isOrganization
                 ? 'Manage your fundraisers and donations'
                 : 'Track your contributions'}
@@ -100,7 +100,7 @@ export default async function Dashboard() {
         </div>
         
         <div className="mt-12">
-          <h2 className="text-xl font-bold text-gray-900 mb-6">
+          <h2 className="text-xl font-bold text-gray-200 mb-6">
             {isOrganization
               ? 'Donation Approvals'
               : 'Your Donation History'}

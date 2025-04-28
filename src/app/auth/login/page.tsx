@@ -71,10 +71,10 @@ export default function LoginPage() {
     <MainLayout>
       <div className="flex min-h-full flex-col justify-center py-12 sm:px-6 lg:px-8">
         <div className="sm:mx-auto sm:w-full sm:max-w-md">
-          <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900">
+          <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-gray-100">
             Sign in to your account
           </h2>
-          <p className="mt-2 text-center text-sm text-gray-700">
+          <p className="mt-2 text-center text-sm text-gray-100">
             Don't have an account?{' '}
             <Link
               href="/auth/register"
@@ -91,7 +91,7 @@ export default function LoginPage() {
               <div>
                 <label
                   htmlFor="email"
-                  className="block text-sm font-medium text-gray-700"
+                  className="block text-sm font-medium text-gray-900"
                 >
                   Email address
                 </label>
@@ -100,7 +100,7 @@ export default function LoginPage() {
                     id="email"
                     type="email"
                     autoComplete="email"
-                    className="block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 placeholder-gray-400 shadow-sm focus:border-indigo-500 focus:outline-none sm:text-sm"
+                    className="block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 text-black  shadow-sm focus:border-indigo-500 focus:outline-none sm:text-sm"
                     {...register('email')}
                   />
                   {errors.email && (
@@ -114,7 +114,7 @@ export default function LoginPage() {
               <div>
                 <label
                   htmlFor="password"
-                  className="block text-sm font-medium text-gray-700"
+                  className="block text-sm font-medium text-gray-900"
                 >
                   Password
                 </label>
@@ -123,7 +123,7 @@ export default function LoginPage() {
                     id="password"
                     type="password"
                     autoComplete="current-password"
-                    className="block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 placeholder-gray-400 shadow-sm focus:border-indigo-500 focus:outline-none sm:text-sm"
+                    className="block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 text-black shadow-sm focus:border-indigo-500 focus:outline-none sm:text-sm"
                     {...register('password')}
                   />
                   {errors.password && (
@@ -183,7 +183,7 @@ export default function LoginPage() {
                   <div className="w-full border-t border-gray-300" />
                 </div>
                 <div className="relative flex justify-center text-sm">
-                  <span className="bg-white px-2 text-gray-700">
+                  <span className="bg-white px-2 text-gray-900">
                     Or continue with
                   </span>
                 </div>

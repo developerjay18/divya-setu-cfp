@@ -79,13 +79,13 @@ export default function DonationForm({
 
   return (
     <div className="bg-white rounded-lg shadow p-6">
-      <h2 className="text-xl font-bold mb-4">Make a Donation</h2>
+      <h2 className="text-xl font-bold text-black mb-4">Make a Donation</h2>
       
       <div className="mb-6">
         <h3 className="font-medium text-gray-700 mb-2">Payment Details:</h3>
         
         <div className="p-4 bg-gray-50 rounded-md">
-          <p className="text-sm mb-2">
+          <p className="text-sm mb-2 text-black">
             Please make the payment via UPI and enter the transaction details below.
           </p>
           
@@ -102,7 +102,7 @@ export default function DonationForm({
             )}
             
             <div>
-              <p className="text-sm mb-1">
+              <p className="text-sm text-black mb-1">
                 <span className="font-medium">UPI ID:</span> {upiId}
               </p>
               <p className="text-sm text-gray-600">

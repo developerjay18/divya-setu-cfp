@@ -49,7 +49,7 @@ export default async function ProfilePage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="md:flex md:items-center md:justify-between">
               <div className="flex-1 min-w-0">
-                <h1 className="text-2xl font-bold leading-7 text-gray-900 sm:text-3xl sm:truncate">
+                <h1 className="text-2xl font-bold leading-7 text-gray-100 sm:text-3xl sm:truncate">
                   Profile
                 </h1>
               </div>
